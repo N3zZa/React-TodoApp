@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+.listUpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+    span {
+        color: red;
+        align-items: flex-start;
+    }
+}
+
+.mainInput {
+    width: 400px;
+    padding: 10px 20px;
+    border: 1px solid rgb(123, 0, 194);
+    border-radius: 10px;
+    outline: none;
+    transition: .2s;
+    &:focus {
+        width: 500px;
+    }
+}
+
+.sizeInput {
+    padding: 7px 15px;
+    border: 1px solid rgb(123, 0, 194);
+    border-radius: 10px;
+}
+
+.addButton {
+    padding: 10px 25px;
+    border: 1px solid rgb(123, 0, 194);
+    border-radius: 8px;
+    color: rgb(123, 0, 194);
+    cursor: pointer;
+}
+
+.postItemBlock {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid rgb(123, 0, 194);
+    border-radius: 8px;
+    word-break:break-all;
+    text-align: center;
+}
+
+.list {
+    width: auto;
+}
+
+.emptyBlock {
+    display: flex;
+    width: 175px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+    button {
+        border: 1px solid red;
+        color: red;
+        cursor: pointer;
+    }
+}
